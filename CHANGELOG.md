@@ -41,26 +41,26 @@
 - refactor test
 - fix types errors
 - add img_hash PR#65
-- use new @u4/opencv-build@0.7.3 (unnecessary builds, add a sym-link latest build directory)
+- use new @edumolki/opencv-build@0.7.3 (unnecessary builds, add a sym-link latest build directory)
 
 ## Version 6.3.0
-* use new @u4/opencv-build@0.6.1
+* use new @edumolki/opencv-build@0.6.1
 * improve cuda support add `--cudaArch <value>` to choose your cuda target, for example I use --cudaArch=8.6 for my RTX 3060, check https://en.wikipedia.org/wiki/CUDA for full list.
 * `build-opencv` support a new action: `list` that will list ixisting openCV build
 * `build-opencv auto` will not rebuild anything if the current build is working 
 
 ## Version 6.2.5
-* update @u4/opencv-build
+* update @edumolki/opencv-build
 * replace tiny-glob by @u4/tiny-glob
 
 ## Version 6.2.4
-* update @u4/opencv-build
+* update @edumolki/opencv-build
 
 ## Version 6.2.3
-* update @u4/opencv-build
+* update @edumolki/opencv-build
 
 ## Version 6.2.2
-* update deps including @u4/opencv-build
+* update deps including @edumolki/opencv-build
 * autobuild now work out of the box on common setup. (chocolatey, brew, apt)
 
 ## Version 6.2.1
@@ -129,7 +129,7 @@
 ## Version 6.0.11
 
 * fix drawUtils.ts code
-* use @u4/opencv-build 0.4.3
+* use @edumolki/opencv-build 0.4.3
 * add some more cv types
 * start refactor cv.d.ts
 * drop enum usage type WND_PROP
@@ -153,5 +153,5 @@
 
 ## Version 6.0.7
 
-* bump dependence versions inclkuding @u4/opencv-build@0.4.1
+* bump dependence versions inclkuding @edumolki/opencv-build@0.4.1
 * [Fix typyings in Net.d.ts](https://github.com/UrielCh/opencv4nodejs/pull/3)

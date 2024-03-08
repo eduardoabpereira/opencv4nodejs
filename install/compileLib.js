@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.compileLib = void 0;
-const opencv_build_1 = require("@u4/opencv-build");
+const opencv_build_1 = require("@edumolki/opencv-build");
 const child_process = require("child_process");
 const fs = require("fs");
 const log = require("npmlog");

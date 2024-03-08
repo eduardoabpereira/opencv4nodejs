@@ -1,4 +1,4 @@
-import { type OpenCVBuildEnvParams } from '@u4/opencv-build';
+import { type OpenCVBuildEnvParams } from '@edumolki/opencv-build';
 import promisify from './promisify.js';
 import extendWithJsSources from './src';
 import { getOpenCV } from './cvloader.js';

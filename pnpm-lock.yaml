@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@u4/opencv-build':
+  '@edumolki/opencv-build':
     specifier: 0.7.8
     version: 0.7.8
   '@u4/tiny-glob':
@@ -374,7 +374,7 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@u4/opencv-build@0.7.8:
+  /@edumolki/opencv-build@0.7.8:
     resolution: {integrity: sha512-5f+osZgNi5YnBsDKB7l/y4DCRwbjrKeAj1zTKYeUO0C7IeFMd7eG2bK/78vTGQuALWs2lk7bU1VUwIeHfpKEBw==}
     hasBin: true
     dependencies:

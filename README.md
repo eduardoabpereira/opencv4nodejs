@@ -4,7 +4,7 @@
 
 ## Getting starts
 
-Opencv4nodejs can be linked to a prebuild openCV 3 or 4. or can build its own openCV using [@u4/opencv-build](https://www.npmjs.com/package/@u4/opencv-build),
+Opencv4nodejs can be linked to a prebuild openCV 3 or 4. or can build its own openCV using [@edumolki/opencv-build](https://www.npmjs.com/package/@edumolki/opencv-build),
 In this case, you have to choose which version you want to link.
 
 ### To use your OWN openCV build
@@ -78,7 +78,7 @@ check Docker sample below
 
 ## for advanced option
 
-- [@u4/opencv-build](https://github.com/UrielCh/npm-opencv-build) for info.
+- [@edumolki/opencv-build](https://github.com/UrielCh/npm-opencv-build) for info.
 
 ![opencv4nodejs](https://user-images.githubusercontent.com/31125521/37272906-67187fdc-25d8-11e8-9704-40e9e94c1e80.jpg)
 

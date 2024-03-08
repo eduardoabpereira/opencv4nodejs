@@ -1,4 +1,4 @@
-import { type OpencvModule, OpenCVBuilder, OpenCVBuildEnv, type OpenCVBuildEnvParams, args2Option, genHelp } from '@u4/opencv-build'
+import { type OpencvModule, OpenCVBuilder, OpenCVBuildEnv, type OpenCVBuildEnvParams, args2Option, genHelp } from '@edumolki/opencv-build'
 import * as child_process from 'child_process'
 import * as fs from 'fs'
 import * as log from 'npmlog'

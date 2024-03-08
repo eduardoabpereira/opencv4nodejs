@@ -1,4 +1,4 @@
-import { OpenCVBuilder, type OpenCVBuildEnvParams } from '@u4/opencv-build';
+import { OpenCVBuilder, type OpenCVBuildEnvParams } from '@edumolki/opencv-build';
 import * as fs from 'fs';
 import * as path from 'path';
 import { isElectronWebpack, resolvePath } from './commons.js';
